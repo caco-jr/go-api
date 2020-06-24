@@ -65,6 +65,7 @@ func handlePagination(offSet int, limit int) response {
 	return resOn
 }
 
+// GetMeasurementsJSON get JSON info about Measurements
 func GetMeasurementsJSON(offSet int, limit int) []byte {
 	measurements := handlePagination(offSet, limit)
 	json, _ := json.Marshal(measurements)
