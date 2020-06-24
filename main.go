@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
+	"os"
 	"strconv"
 	"strings"
 
@@ -66,6 +67,12 @@ func notFound(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	port := os.Getenv("PORT")
+
+	if port == "" {
+		log.Fatal("$PORT must be set")
+	}
+
 	router := mux.NewRouter()
 	api := router.PathPrefix("/api/v1").Subrouter()
 	api.HandleFunc("", get).Methods(http.MethodGet)
@@ -73,5 +80,5 @@ func main() {
 	api.HandleFunc("", put).Methods(http.MethodPut)
 	api.HandleFunc("", delete).Methods(http.MethodDelete)
 	api.HandleFunc("", notFound)
-	log.Fatal(http.ListenAndServe(":8080", router))
+	log.Fatal(http.ListenAndServe(port, router))
 }
