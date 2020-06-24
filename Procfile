@@ -1,1 +1,1 @@
-web: main
+web: bin/github.com/caco-jr/go-api
