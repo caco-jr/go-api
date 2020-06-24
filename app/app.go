@@ -1,63 +1,65 @@
-package main
+package app
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
+	"log"
 )
 
 type measurement struct {
-	ID string `json:"id"`
-	UserID string `json:"userID"`
-	Concentration int `json:"concentration"`
+	ID                string `json:"id"`
+	UserID            string `json:"userID"`
+	Concentration     int    `json:"concentration"`
 	ConcentrationUnit string `json:"concentrationUnit"`
 }
 
 type response struct {
-	limit int `json:"limit"`
-	results []measurement `json:"results"`
-	size int `json:"size"`
-	start int `json:"start"`
+	Limit   int           `json:"limit"`
+	Results []measurement `json:"results"`
+	Size    int           `json:"size"`
+	Start   int           `json:"start"`
 }
 
 func getMeasurements() []measurement {
-	byteValue,_:= ioutil.ReadFile("data.json")
+	contents, err := ioutil.ReadFile("app/data.json")
+
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	var measurements []measurement
-	json.Unmarshal(byteValue, &measurements)
+	json.Unmarshal(contents, &measurements)
 
-	return measurements;
+	return measurements
 }
 
-func handlePagination(offSet int, limit int)  response {
+func handlePagination(offSet int, limit int) response {
 	measurements := getMeasurements()
 	final := offSet + limit
 	size := len(measurements)
 
 	resOn := response{
-		limit: limit,
-		size: size,
-		start: offSet,
+		Limit: limit,
+		Size:  size,
+		Start: offSet,
 	}
 
 	if offSet > size {
-		resOn.results = make([]measurement, 0)
+		resOn.Results = make([]measurement, 0)
 		return resOn
 	}
 
 	if size < final {
-		resOn.results = measurements[offSet:size]
+		resOn.Results = measurements[offSet:size]
 		return resOn
 	}
 
-	resOn.results = measurements[offSet:final]
+	resOn.Results = measurements[offSet:final]
 	return resOn
 }
 
-func main() {
-	measurements := handlePagination(10, 10)
-
-	for _, m := range measurements.results {
-		fmt.Println(">> ", m.Concentration)
-	}
+func GetMeasurementsJSON(offSet int, limit int) []byte {
+	measurements := handlePagination(offSet, limit)
+	json, _ := json.Marshal(measurements)
+	return json
 }

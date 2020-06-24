@@ -1,10 +1,10 @@
 package main
 
 import (
-	"log"
+	"fmt"
 	"net/http"
 
-	"github.com/gorilla/mux"
+	app "github.com/caco-jr/go-api/app"
 )
 
 func get(w http.ResponseWriter, r *http.Request) {
@@ -38,12 +38,14 @@ func notFound(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	r := mux.NewRouter()
-	api := r.PathPrefix("/api/v1").Subrouter()
-	api.HandleFunc("", get).Methods(http.MethodGet)
-	api.HandleFunc("", post).Methods(http.MethodPost)
-	api.HandleFunc("", put).Methods(http.MethodPut)
-	api.HandleFunc("", delete).Methods(http.MethodDelete)
-	api.HandleFunc("", notFound)
-	log.Fatal(http.ListenAndServe(":8080", r))
+	fmt.Println(string(app.GetMeasurementsJSON(0, 10)))
+
+	// r := mux.NewRouter()
+	// api := r.PathPrefix("/api/v1").Subrouter()
+	// api.HandleFunc("", get).Methods(http.MethodGet)
+	// api.HandleFunc("", post).Methods(http.MethodPost)
+	// api.HandleFunc("", put).Methods(http.MethodPut)
+	// api.HandleFunc("", delete).Methods(http.MethodDelete)
+	// api.HandleFunc("", notFound)
+	// log.Fatal(http.ListenAndServe(":8080", r))
 }
