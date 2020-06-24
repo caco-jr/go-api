@@ -1,4 +1,4 @@
-module go-api
+module github.com/caco-jr/go-api
 
 go 1.14
 

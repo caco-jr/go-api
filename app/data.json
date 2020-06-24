@@ -1,0 +1,346 @@
+[
+  {
+    "id": "5ec1e84d54710c81c4b51727",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 119,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-18T01:43:00Z",
+    "mealContext": "After",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição 18 minutos depois do lanche noturno",
+    "createdAt": "2020-05-18T01:43:41.869Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ec1e3ed54710c81c4b51725",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 118,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-18T01:25:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição lanche noturno",
+    "createdAt": "2020-05-18T01:25:01.882Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ec090e154710c81c4b5152c",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 118,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-17T01:18:00Z",
+    "mealContext": "After",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição 18 minutos depois do lanche noturno",
+    "createdAt": "2020-05-17T01:18:25.522Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ec08caf54710c81c4b5152b",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 118,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-17T01:00:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição lanche noturno",
+    "createdAt": "2020-05-17T01:00:31.617Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebf409e54710c81c4b51437",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 116,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-16T01:23:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição 18 minutos depois do lanche noturno",
+    "createdAt": "2020-05-16T01:23:42.022Z",
+    "updatedAt": "2020-05-19T00:21:23.973Z"
+  },
+  {
+    "id": "5ebf3c5354710c81c4b51435",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 109,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-16T01:05:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "Manual",
+    "notes": "Medição manual lanche noturno",
+    "createdAt": "2020-05-16T01:05:23.631Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebf34c754710c81c4b51434",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 105,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-16T00:33:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "Manual",
+    "notes": "",
+    "createdAt": "2020-05-16T00:33:11.893Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebf15f054710c81c4b51431",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 111,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-15T22:21:00Z",
+    "mealContext": "After",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição 35 minutos depois do jantar",
+    "createdAt": "2020-05-15T22:21:36.249Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebf0dbc54710c81c4b51430",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 103,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-15T21:46:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição antes do jantar",
+    "createdAt": "2020-05-15T21:46:36.299Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebf017354710c81c4b513f1",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 108,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-15T20:54:00Z",
+    "mealContext": "After",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição 16 minutos depois do coffebreak da tarde",
+    "createdAt": "2020-05-15T20:54:11.766Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebefdb854710c81c4b513f0",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 104,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-15T20:38:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição ante do coffebreak da tarde",
+    "createdAt": "2020-05-15T20:38:16.575Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebebdd9918ad0a11ff5df0a",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 102,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-15T16:05:00Z",
+    "mealContext": "After",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição 39 minutos depois do almoço",
+    "createdAt": "2020-05-15T16:05:45.58Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebeb4a8918ad0a11ff5deeb",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 101,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-15T15:26:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": ""
+    },
+    "notes": "Medição antes do almoço",
+    "createdAt": "2020-05-15T15:26:32.451Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebeb207918ad0a11ff5deea",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 116,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-15T15:15:00Z",
+    "mealContext": "After",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "",
+    "createdAt": "2020-05-15T15:15:19.731Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebead58918ad0a11ff5dee9",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 110,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-15T14:55:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição antes do lanche matinal",
+    "createdAt": "2020-05-15T14:55:20.23Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebdedd6918ad0a11ff5dee7",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 115,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-15T01:18:00Z",
+    "mealContext": "After",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição 16 minutos depois do lanche noturno",
+    "createdAt": "2020-05-15T01:18:14.067Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebdea33918ad0a11ff5dee5",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 108,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-15T01:02:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição lanche noturno",
+    "createdAt": "2020-05-15T01:02:43.518Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebdd6c5918ad0a11ff5dee1",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 119,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-14T23:39:00Z",
+    "mealContext": "After",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição 60 minutos depois do jantar",
+    "createdAt": "2020-05-14T23:39:49.198Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebdc8ad918ad0a11ff5dee0",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 118,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-14T22:39:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição antes do jantar",
+    "createdAt": "2020-05-14T22:39:41.687Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebdafef918ad0a11ff5dedd",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 118,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-14T20:21:00Z",
+    "mealContext": "After",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição 20 minutos depois do coffebreak da tarde",
+    "createdAt": "2020-05-14T20:54:06.891Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebd7a45cca5998d21d5f2ad",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 120,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-14T17:05:00Z",
+    "mealContext": "After",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição 28 minutos depois do almoço",
+    "createdAt": "2020-05-14T17:05:09.086Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": "5ebd73b6cca5998d21d5f2ab",
+    "userID": "4637b06a-5c9e-4ddf-920d-1b8e2aee5d34",
+    "concentration": 103,
+    "concentrationUnit": "mg/dL",
+    "measuredAt": "2020-05-14T16:37:00Z",
+    "mealContext": "Before",
+    "measurementMethod": "BGM",
+    "glucometer": {
+      "name": "Accu check guide",
+      "manufacturer": "Roche"
+    },
+    "notes": "Medição antes do almoço",
+    "createdAt": "2020-05-14T16:37:10.988Z",
+    "updatedAt": "0001-01-01T00:00:00Z"
+  }
+]
