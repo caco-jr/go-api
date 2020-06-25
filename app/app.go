@@ -28,7 +28,8 @@ func getJSONFilePath() string {
 }
 
 func getMeasurements() []measurement {
-	contents, err := ioutil.ReadFile(getJSONFilePath())
+	// contents, err := ioutil.ReadFile(getJSONFilePath())
+	contents, err := ioutil.ReadFile("app/data.json")
 
 	if err != nil {
 		log.Fatal(err)
