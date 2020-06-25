@@ -7,10 +7,22 @@ import (
 )
 
 type measurement struct {
-	ID                string `json:"id"`
-	UserID            string `json:"userID"`
-	Concentration     int    `json:"concentration"`
-	ConcentrationUnit string `json:"concentrationUnit"`
+	ID                string     `json:"id"`
+	UserID            string     `json:"userID"`
+	Concentration     int        `json:"concentration"`
+	ConcentrationUnit string     `json:"concentrationUnit"`
+	MeasuredAt        string     `json:"measuredAt"`
+	MealContext       string     `json:"mealContext"`
+	MeasurementMethod string     `json:"measurementMethod"`
+	Glucometer        glucometer `json:"glucometer"`
+	Notes             string     `json:"notes"`
+	CreatedAt         string     `json:"createdAt"`
+	UpdatedAt         string     `json:"updated"`
+}
+
+type glucometer struct {
+	Name         string `json:"name"`
+	Manufacturer string `json:"manufact"`
 }
 
 type response struct {
