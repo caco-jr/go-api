@@ -22,7 +22,7 @@ type measurement struct {
 
 type glucometer struct {
 	Name         string `json:"name"`
-	Manufacturer string `json:"manufact"`
+	Manufacturer string `json:"manufacturer"`
 }
 
 type response struct {
