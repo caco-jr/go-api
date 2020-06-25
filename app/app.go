@@ -4,8 +4,6 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"log"
-	"path"
-	"runtime"
 )
 
 type measurement struct {
@@ -22,13 +20,7 @@ type response struct {
 	Start   int           `json:"start"`
 }
 
-func getJSONFilePath() string {
-	_, filename, _, _ := runtime.Caller(1)
-	return path.Join(path.Dir(filename), "data.json")
-}
-
 func getMeasurements() []measurement {
-	// contents, err := ioutil.ReadFile(getJSONFilePath())
 	contents, err := ioutil.ReadFile("app/data.json")
 
 	if err != nil {
