@@ -9,6 +9,7 @@ import (
 
 	app "github.com/caco-jr/go-api/app"
 	"github.com/gorilla/mux"
+	"github.com/joho/godotenv"
 )
 
 func strToInt(str string) (int, error) {
@@ -67,6 +68,7 @@ func notFound(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	godotenv.Load()
 	port := os.Getenv("PORT")
 
 	if port == "" {
