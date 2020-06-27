@@ -34,11 +34,16 @@ func handleQuery(r *http.Request, queryParam string) int {
 	return intQuery
 }
 
+func enableCors(w *http.ResponseWriter) {
+	(*w).Header().Set("Access-Control-Allow-Origin", "*")
+}
+
 func get(w http.ResponseWriter, r *http.Request) {
 	limit := handleQuery(r, "limit")
 	offset := handleQuery(r, "offset")
 
 	w.Header().Set("Content-Type", "application/json")
+	enableCors(&w)
 	w.WriteHeader(http.StatusOK)
 	w.Write(app.GetMeasurementsJSON(offset, limit))
 }
