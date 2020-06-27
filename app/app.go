@@ -17,7 +17,7 @@ type measurement struct {
 	Glucometer        glucometer `json:"glucometer"`
 	Notes             string     `json:"notes"`
 	CreatedAt         string     `json:"createdAt"`
-	UpdatedAt         string     `json:"updated"`
+	UpdatedAt         string     `json:"updatedAt"`
 }
 
 type glucometer struct {
