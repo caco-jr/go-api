@@ -77,7 +77,7 @@ func main() {
 
 	router := mux.NewRouter()
 	api := router.PathPrefix("/api/v1").Subrouter()
-	api.HandleFunc("", get).Methods(http.MethodGet)
+	api.HandleFunc("/history", get).Methods(http.MethodGet)
 	api.HandleFunc("", post).Methods(http.MethodPost)
 	api.HandleFunc("", put).Methods(http.MethodPut)
 	api.HandleFunc("", delete).Methods(http.MethodDelete)
